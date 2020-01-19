@@ -54,6 +54,10 @@ const person = {
 	printBio() {
 		const fullName = this.fullName();
 		console.log(`${fullName} is a person`);
+	},
+	laugh: () => {
+		console.log(this);
+		console.log(`${nickName} says HAHAHA`);
 	}
 };
 
@@ -62,3 +66,7 @@ const person = {
 //-------------------------------------------------------------------------------------
 
 const printBio = person.printBio;
+
+//-------------------------------------------------------------------------------------
+//                              ARROW FUNCTIONS AND THIS
+//-------------------------------------------------------------------------------------

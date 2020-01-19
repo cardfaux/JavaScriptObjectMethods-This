@@ -34,3 +34,10 @@
 *But if i execute the function by running person.printBio() "THIS" refers to the object. If there is a dot with somthing to the left and then on the right*
 *you atre executing the function "THIS" will be sit to that thing on the left. If nothing is to the left or we call the function by running theFuncytion()*
 *"THIS" will be sit to global execution scope the window*
+
+# Arrow Functions And This
+
+**Arrow Function DO NOT get their own version of THIS**
+
+*On line 59 where i console.log "THIS" inside of an arrow function. If I run person.laugh() "THIS" refers to the Window object. If i run person.printBio()*
+*"THIS" refers to the object itself. So with an arrow function "THIS" value is unchanged and still the window object as it is with sayHi()*
