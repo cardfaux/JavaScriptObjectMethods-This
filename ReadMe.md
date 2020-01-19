@@ -28,3 +28,9 @@
 # THIS Invocation Context
 
 **the value of this depends on the invocation context of the function it is used in**
+
+*What "THIS" refers to depends on how it is called. If I Make a referene to Print Bio on line 64 of App.js with `const printBio = person.printBio;`*
+*if i call printBio() in the console I will get an error that says this.fullName is not a function, Because "THIS" references the window*
+*But if i execute the function by running person.printBio() "THIS" refers to the object. If there is a dot with somthing to the left and then on the right*
+*you atre executing the function "THIS" will be sit to that thing on the left. If nothing is to the left or we call the function by running theFuncytion()*
+*"THIS" will be sit to global execution scope the window*
